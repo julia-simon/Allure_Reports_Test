@@ -1,0 +1,17 @@
+/.idea
+/.gradle
+/build
+*.class
+*gradlew
+*gradlew.bat
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
