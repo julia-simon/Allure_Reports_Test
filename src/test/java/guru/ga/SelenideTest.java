@@ -52,6 +52,6 @@ public class SelenideTest extends TestBase {
         steps.searchForRepository(REPOSITORY_NAME);
         steps.clickOnRepositoryLink(REPOSITORY_NAME);
         steps.openIssuesTab();
-        steps.checkNameForIssueWithNumber(ISSUE_NAME);
+        steps.checkNameForIssue(ISSUE_NAME);
     }
 }

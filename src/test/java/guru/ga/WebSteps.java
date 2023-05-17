@@ -32,7 +32,7 @@ public class WebSteps {
     }
 
     @Step("Проверяем, что для issue 81 отображается название: {issueName}")
-    public void checkNameForIssueWithNumber(String issueName) {
+    public void checkNameForIssue(String issueName) {
         $("#issue_81").shouldHave(text("issue_to_test_allure_report"));
     }
 }
